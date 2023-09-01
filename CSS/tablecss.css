@@ -1,0 +1,44 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Verdana, sans-serif;
+  }
+
+  th,
+  td {
+    border: 1px solid white;
+  }
+
+  th {
+    background-color: plum;
+    color: white;
+  }
+
+  /* Menunjuk ke elemen yang menjadi anak bernomor urut ganjil */
+  tr:nth-child(odd) {
+    background-color: palevioletred;
+    color: white;
+  }
+
+  /* Menunjuk ke elemen yang menjadi anak bernomor urut genap */
+  tr:nth-child(even) {
+    background-color: palevioletred;
+    color: white;
+  }
+
+  /* Kondisi ketika mouse diletakkan di atas hyperlink */
+  td:hover {
+    background-color: pink;
+    color: white;
+  }
+  /* Menunjuk ke elemen yang menjadi anak pertama dari direct parent-nya */
+  th:first-child,
+  td:first-child {
+    width: 50px;
+  }
+
+  th:not(:first-child),
+  td:not(:first-child) {
+    width: 100px;
+    border-bottom: 1px solid white;
+  }

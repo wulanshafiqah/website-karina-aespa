@@ -1,0 +1,28 @@
+a:link {
+    color: pink;
+}
+a:visited {
+    color: plum;
+}
+a:hover {
+    color: powderblue;
+}
+a:active {
+    color: gainsboro;
+}
+
+.button {
+    border-radius: 5px;
+    border: none;
+    background-color: palevioletred;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+}
+
+.button:hover {background-color: palevioletred;}
+
+.button:active {
+    background-color: palevioletred;
+    box-shadow: 0 5px #666;
+}
